@@ -1,5 +1,4 @@
 #!/usr/bin/env sh
 # Run from .gitmodules
-
-touch /tmp/pwned
-echo "PWNED"
+printf "\e[41;32m... Running code here ... !!!!!\n" >> /dev/stderr
+echo "PWNED" > /tmp/pwned
